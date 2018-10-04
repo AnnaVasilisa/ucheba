@@ -5,7 +5,6 @@ public class Calculator {
         System.out.println("Вычитаем " + calculator.sub(9, 9));
         System.out.println("Умножаем " + calculator.mult(9, 9));
         System.out.println("Делим " + calculator.div(9, 9));
-        System.out.println("Остаток от деления " + calculator.percent(29, 5));
     }
 
     public int sum(int first, int second) {
@@ -23,9 +22,4 @@ public class Calculator {
     public int div(int first, int second) {
         return first / second;
     }
-
-    public int percent(int first, int second) {
-        return first % second;
-    }
-
 }
